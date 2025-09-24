@@ -19,13 +19,13 @@
 ## Install / Run
 ```bash
 python -m mortcalc.cli --balance 350000 --rate 0.065 --years 27 --contrib 800 --solve-equal-cashflow --solve-lambda
-
+```
 
 ## Arguments
 
 - --balance B (required)
 
-- --rate r_m nominal APR (required)
+- --rate r_m nominal APR (required; represented as a decimal - e.g., 0.065 = 6.5%)
 
 - --months N or --years Y (required)
 
